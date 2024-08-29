@@ -15,3 +15,34 @@
 - Proyectos con HTML, CSS Fetch  y SASS
 - Proyecto con HTML, CSS y JS.
 - Tecnologías y versiones del curso.
+
+### Clase 02 - Áreas del desarrollo web
+
+- ¿Qué es y que hace un desarrollador FrontEnd?
+- ¿Qué es y que hace un desarrollador BackEnd?
+- ¿Qué es y que hace un desarrollador FullStack?
+
+### ¿Cómo aprovechar el curso?
+
+- Recomendaciones: 
+    - Todos aprendemos de forma diferente.
+    - El código nunca se memoriza.
+    - no saltar videos ni acelerar más de lo necesario.
+    - Practica, Practica y Practica.
+    - ¿Cómo manejar los problemas?
+        - Es parte de la programación.
+        - Ve a tu ritmo.
+        - Paciencia con la sinsteaxis del código.
+        - No es imposible pero tampoco es fácil.
+        - El nivel de complejidad irá subiendo conforme avances.
+        - Cometer errores es lo más normal.
+    - ¿Cómo solicitar ayuda?
+        - No tengas miedo a preguntar.
+        - Busca varias fuentes.
+        - Revisar la sección de preguntas del curso.
+    - Editor de código
+        - VSCode
+
+### Sitio FreeLancer - HTML Paso a Paso
+
+    - 
