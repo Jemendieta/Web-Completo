@@ -45,13 +45,17 @@
 
 ### Sitio FreeLancer - HTML Paso a Paso
 
-**HTML**: Es un lenguaje de modelado, sirve para estructurar nuestro sitio web, es basicamente el esqueleto de nuestro sitio.
-    - Funciona en base a etiquetas que representan un tipo de contenido.
-    - Tiene etiquetas semánticas, es decir, etiquetas que le dan mayor sentido al contenido del sitio.
+##### HTML 
+- Es un lenguaje de modelado, sirve para estructurar nuestro sitio web, es basicamente el esqueleto de nuestro sitio.
+- Funciona en base a etiquetas que representan un tipo de contenido.
+- Tiene etiquetas semánticas, es decir, etiquetas que le dan mayor sentido al contenido del sitio.
 
-**Primer Proyecto**
-    - Etiquetas base del proyecto FreeLancer.
-    - Estructura (semántica) del contenido del proyecto Freelancer.
-    - Enlaces y navegación
-    - uso de íconos (https://tablericons.com/)
-    - Agregamos iconos al proyecto Freelancer
+##### Primer Proyecto
+- Etiquetas base del proyecto FreeLancer.
+- Estructura (semántica) del contenido del proyecto Freelancer.
+- Enlaces y navegación
+- uso de íconos (https://tablericons.com/)
+- Agregamos iconos al proyecto Freelancer
+- Trabajamos con formularios HMTL
+- La importncia de CSS
+- 
