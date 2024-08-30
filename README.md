@@ -54,4 +54,4 @@
     - Estructura (semántica) del contenido del proyecto Freelancer.
     - Enlaces y navegación
     - uso de íconos (https://tablericons.com/)
-    - 
+    - Agregamos iconos al proyecto Freelancer
