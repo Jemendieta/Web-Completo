@@ -51,11 +51,89 @@
 - Tiene etiquetas semánticas, es decir, etiquetas que le dan mayor sentido al contenido del sitio.
 
 ##### Primer Proyecto
-- Etiquetas base del proyecto FreeLancer.
-- Estructura (semántica) del contenido del proyecto Freelancer.
-- Enlaces y navegación
-- uso de íconos (https://tablericons.com/)
-- Agregamos iconos al proyecto Freelancer
-- Trabajamos con formularios HMTL
-- La importncia de CSS
+- Empezando con HTML
+    - Etiquetas base del proyecto FreeLancer.
+    - Estructura (semántica) del contenido del proyecto Freelancer.
+    - Enlaces y navegación
+    - uso de íconos (https://tablericons.com/)
+    - Agregamos iconos al proyecto Freelancer
+    - Trabajamos con formularios HMTL
+
+- La importancia de CSS
+    - Colores, tamaos, espacios, animacioens y demás.
+    - Es la forma en la que mejoramos el diseño de nuestros sitios web.
+    - Estructura base
+        ```CSS
+            p {
+                color: blue;
+            }
+        ````
+    - Anatomía de CSS, en la estructura enterior:
+        - p: es la etiqueta o selector al que queremos aplicar estilos.
+        - Las llaves {}: agrupan las propiedades y valores CSS.
+    - Estilos del sitio web Freelancer.
+    - Tamaños de texto (px, em, rem)
+    - Formas de escribir selectores
+        - Selector de elemento: en base a su etiqueta.
+            ```CSS
+                p{
+                    color:blue;
+                }
+            ```
+        - Selector de clase: identificado por un punto en CSS.
+            ```CSS
+                .parrafo {
+                    color:blue;
+                }
+            ```
+        - Selector de Id: identificados en css con un símbolo de #. Solo se puede usar una vez.
+            ```CSS
+                #parrafo{
+                    color:blue;
+                }
+            ```
+        - Slector de atributo: basados en algún atributo.
+            ```CSS
+                [src="logo.jpg"]{
+                    color:blue;
+                }
+            ```
+       
+        - Combinación descendente: agrupando clases.
+            ```CSS
+                .parrafo .texto{
+                    color:blue;
+                }
+            ```     
+        - selectores hijos: slecciona a todos los elementos p dentro de la clase cliente.
+            ```CSS
+                .cliente > p{
+                    color:blue;
+                }
+            ```
+        
+    - Especificidad en CSS:
+        - hay selectores que son más específicos que otros.
+        - el id es más específico que la clase.
+        - El selector !important es el más específico de todos
+        - los estilos en linea son más específicos que los de clase.
+        - las clases son más espesíficas que los selectores de elementos.
+        - y todos los anteriores son más espefícos que el selector universal *.
+        - En resumen la jerarquía ed especificidad sería la siguiente:
+            <pre>
+               <code>
+                !important           = 1,0,0,0,0
+                Selector de id #     = 0,1,0,0,0
+                estilos en línea     = 0,0,1,0,0
+                Selector de clase    = 0,0,0,1,0
+                Selector de elemento = 0,0,0,0,1
+                Selector universal * = 0,0,0,0,0   
+               </code>          
+            </pre>
+        - La especificidad le dice al navagador como mostrar el css que estamos utilizando de acuerdo a que tan específico es el selector utilizado.
+        - No se reomienda el uso del selector !important a no ser que no quede otra alternativa.
+
+    - Colores en CSS:
+        - 
+
 - 
