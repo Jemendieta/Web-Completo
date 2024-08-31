@@ -68,8 +68,8 @@
                 color: blue;
             }
         ````
-    - Anatomía de CSS, en la estructura enterior:
-        - p: es la etiqueta o selector al que queremos aplicar estilos.
+- Anatomía de CSS, en la estructura enterior:
+    - p: es la etiqueta o selector al que queremos aplicar estilos.
         - Las llaves {}: agrupan las propiedades y valores CSS.
     - Estilos del sitio web Freelancer.
     - Tamaños de texto (px, em, rem)
@@ -112,28 +112,40 @@
                 }
             ```
         
-    - Especificidad en CSS:
-        - hay selectores que son más específicos que otros.
-        - el id es más específico que la clase.
-        - El selector !important es el más específico de todos
-        - los estilos en linea son más específicos que los de clase.
-        - las clases son más espesíficas que los selectores de elementos.
-        - y todos los anteriores son más espefícos que el selector universal *.
-        - En resumen la jerarquía ed especificidad sería la siguiente:
-            <pre>
-               <code>
-                !important           = 1,0,0,0,0
-                Selector de id #     = 0,1,0,0,0
-                estilos en línea     = 0,0,1,0,0
-                Selector de clase    = 0,0,0,1,0
-                Selector de elemento = 0,0,0,0,1
-                Selector universal * = 0,0,0,0,0   
-               </code>          
-            </pre>
-        - La especificidad le dice al navagador como mostrar el css que estamos utilizando de acuerdo a que tan específico es el selector utilizado.
-        - No se reomienda el uso del selector !important a no ser que no quede otra alternativa.
+- Especificidad en CSS:
 
-    - Colores en CSS:
-        - 
+    - hay selectores que son más específicos que otros.
+    - el id es más específico que la clase.
+    - El selector !important es el más específico de todos
+    - los estilos en linea son más específicos que los de clase.
+    - las clases son más espesíficas que los selectores de elementos.
+    - y todos los anteriores son más espefícos que el selector universal *.
+    - En resumen la jerarquía ed especificidad sería la siguiente:
+        <pre>
+            <code>
+            !important           = 1,0,0,0,0
+            Selector de id #     = 0,1,0,0,0
+            estilos en línea     = 0,0,1,0,0
+            Selector de clase    = 0,0,0,1,0
+            Selector de elemento = 0,0,0,0,1
+            Selector universal * = 0,0,0,0,0   
+            </code>          
+        </pre>
+    - La especificidad le dice al navagador como mostrar el css que estamos utilizando de acuerdo a que tan específico es el selector utilizado.
+    - No se reomienda el uso del selector !important a no ser que no quede otra alternativa.
+
+- Colores en CSS:
+    - Hay vartias formas de definir colores en css, por nombre, hexadecimal, hsl rgb, rgba...
+    ```CSS
+        p{
+            color:blue;
+            color:#000;
+            color:rgb(); /*red, green, blue*/
+            color:rgba(); /*red, green, blue, transparency*/
+            color:hsl(); /*hue, saturation, light*/
+        }
+    ```
+    - Existen herramientas en línea que nos pueden ayduar con la selección de colores.
+    - 
 
 - 
