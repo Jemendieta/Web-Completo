@@ -29,3 +29,29 @@ body{
 .titulo span{
   font-size: 2rem;
 }
+
+/* Navegación */
+.nav-background{
+  background-color: var(--secundario);
+}
+.contenedor{
+  width: 120rem;
+  margin: 0 auto;
+}
+.navegacion-principal{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navegacion-principal a{
+  color: var(--blanco);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 2rem;
+  padding:1rem;
+}
+
+.navegacion-principal a:hover{
+  background-color: var(--primario);
+  color: var(--oscuro);
+}

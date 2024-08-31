@@ -150,7 +150,27 @@
 - Añadir fuentes externas de estilos a nuestro proyecto.
     - fuentes (https://fontsource.org/)
     - Google fonts (https://fonts.google.com/)
-    - Agregando normalize.css el cual permite resetear los  estilos por defecto del navegador, aunque hoy en día, ya no se utiliza demasiado, sigue siendo una herramienta que nos puede servir para nuestro peoyectos (https://necolas.github.io/normalize.css/).
+    - Agregando normalize.css el cual permite resetear los  estilos por defecto del navegador, aunque hoy en día ya no se utiliza demasiado, sigue siendo una herramienta que nos puede servir en nuestro peoyectos (https://necolas.github.io/normalize.css/).
 
-- Tabajando la navegaciónd el proyecto FreeLancer
-    - 
+- Tabajando la navegación del proyecto FreeLancer.
+    - Usando formas abrevaidas de la propiedad margin
+    - Estilos de navegación y display (block, inline), es decir, tenemos elementos en línea y elementos de bloque, los elementos de líena (uno al lado del otro) solo ocupan el espacio de su contenido, mientras que los de bloque (uno bajo otro) ocupan todo el espacio disponible.
+    - Margin y padding: el margin es el espacio con respecto a otros elementos, mientras que el padding es el espacio con respecto a la parte interna del contenedor.
+    - Display flex y display grid, nos permiten posicionar nuestros elementos de una forma mucho más dinámica.
+    - Enlaces complementarios:
+        - Flexbox: https://lenguajecss.com/css/flex/que-es-flex/
+        - grid: https://lenguajecss.com/css/grid/que-es-grid/
+    - BEM: es una forma de escribir CSS, BEM (bloque, elemento, modificador).
+        ```CSS
+            .contenedor{};  <!-- bloque -->
+            .contenedor__boton{}; <!-- bloque y elemento -->
+            .contenedor__botton--activo{}; <!-- bloque, elemento y modificador -->
+        ``` 
+    - Utility First: es otra forma de escribir css, donde definimos clases con una sola propiedad que describe lo que hará, es muy cmoun en TalwindCSS.
+        ```CSS
+            .text-center{};
+            .color-red-100{};
+        ```
+    - Móulos: es otr aforma de definir clases partiendo de una principoal y luego descendiendo a los elemtos que contiene.
+
+    - Introducción a Responsive Web Design: 
