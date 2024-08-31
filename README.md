@@ -146,6 +146,11 @@
         }
     ```
     - Existen herramientas en línea que nos pueden ayduar con la selección de colores.
-    - 
 
-- 
+- Añadir fuentes externas de estilos a nuestro proyecto.
+    - fuentes (https://fontsource.org/)
+    - Google fonts (https://fonts.google.com/)
+    - Agregando normalize.css el cual permite resetear los  estilos por defecto del navegador, aunque hoy en día, ya no se utiliza demasiado, sigue siendo una herramienta que nos puede servir para nuestro peoyectos (https://necolas.github.io/normalize.css/).
+
+- Tabajando la navegaciónd el proyecto FreeLancer
+    - 
