@@ -173,4 +173,21 @@
         ```
     - Móulos: es otr aforma de definir clases partiendo de una principoal y luego descendiendo a los elemtos que contiene.
 
-    - Introducción a Responsive Web Design: 
+    - Introducción a Responsive Web Design: es la manera en que la nuestra web se adapta a los distintos tamaños de pantalla en los dispositivos móbiles.
+    - Esto se logra haciendo uso de las medias queries:
+        - Medidas adaptables según el tipo de pantalla o dispositivo que el usuario final utilice.
+        - tienen la sigfuiente estrucura css
+            ```CSS
+                @media (min-width: 768px){  
+                    <!-- Estilos css que se aplicarán a esa resolución -->
+                }
+            ```
+        - min-width: indica que a partir de ese tamaño en adelante se aplicarán eciertos estilos.
+        - max-width: indica que de ese tamaño o menores a el se aplicaran ciertos estilos.
+        - Tamaños estandar para Media Queries:
+            - 480 para teléfonos
+            - 768 par tabletas
+            - 1140 para laptops
+            - 1400 para pantallas más grandes
+
+    - Imágenes con CSS:
