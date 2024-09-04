@@ -43,7 +43,7 @@
     - Editor de código
         - VSCode
 
-### Sitio FreeLancer - HTML Paso a Paso
+## Sitio FreeLancer - HTML Paso a Paso
 
 ##### HTML 
 - Es un lenguaje de modelado, sirve para estructurar nuestro sitio web, es basicamente el esqueleto de nuestro sitio.
@@ -59,93 +59,93 @@
     - Agregamos iconos al proyecto Freelancer
     - Trabajamos con formularios HMTL
 
-- La importancia de CSS
-    - Colores, tamaos, espacios, animacioens y demás.
-    - Es la forma en la que mejoramos el diseño de nuestros sitios web.
-    - Estructura base
-        ```CSS
-            p {
-                color: blue;
-            }
-        ````
-- Anatomía de CSS, en la estructura enterior:
-    - p: es la etiqueta o selector al que queremos aplicar estilos.
-        - Las llaves {}: agrupan las propiedades y valores CSS.
-    - Estilos del sitio web Freelancer.
-    - Tamaños de texto (px, em, rem)
-    - Formas de escribir selectores
-        - Selector de elemento: en base a su etiqueta.
-            ```CSS
-                p{
-                    color:blue;
-                }
-            ```
-        - Selector de clase: identificado por un punto en CSS.
-            ```CSS
-                .parrafo {
-                    color:blue;
-                }
-            ```
-        - Selector de Id: identificados en css con un símbolo de #. Solo se puede usar una vez.
-            ```CSS
-                #parrafo{
-                    color:blue;
-                }
-            ```
-        - Slector de atributo: basados en algún atributo.
-            ```CSS
-                [src="logo.jpg"]{
-                    color:blue;
-                }
-            ```
-       
-        - Combinación descendente: agrupando clases.
-            ```CSS
-                .parrafo .texto{
-                    color:blue;
-                }
-            ```     
-        - selectores hijos: slecciona a todos los elementos p dentro de la clase cliente.
-            ```CSS
-                .cliente > p{
-                    color:blue;
-                }
-            ```
-        
-- Especificidad en CSS:
-
-    - hay selectores que son más específicos que otros.
-    - el id es más específico que la clase.
-    - El selector !important es el más específico de todos
-    - los estilos en linea son más específicos que los de clase.
-    - las clases son más espesíficas que los selectores de elementos.
-    - y todos los anteriores son más espefícos que el selector universal *.
-    - En resumen la jerarquía ed especificidad sería la siguiente:
-        <pre>
-            <code>
-            !important           = 1,0,0,0,0
-            Selector de id #     = 0,1,0,0,0
-            estilos en línea     = 0,0,1,0,0
-            Selector de clase    = 0,0,0,1,0
-            Selector de elemento = 0,0,0,0,1
-            Selector universal * = 0,0,0,0,0   
-            </code>          
-        </pre>
-    - La especificidad le dice al navagador como mostrar el css que estamos utilizando de acuerdo a que tan específico es el selector utilizado.
-    - No se reomienda el uso del selector !important a no ser que no quede otra alternativa.
-
-- Colores en CSS:
-    - Hay vartias formas de definir colores en css, por nombre, hexadecimal, hsl rgb, rgba...
+#### La importancia de CSS
+- Colores, tamaos, espacios, animacioens y demás.
+- Es la forma en la que mejoramos el diseño de nuestros sitios web.
+- Estructura base
     ```CSS
-        p{
-            color:blue;
-            color:#000;
-            color:rgb(); /*red, green, blue*/
-            color:rgba(); /*red, green, blue, transparency*/
-            color:hsl(); /*hue, saturation, light*/
+        p {
+            color: blue;
         }
-    ```
-    - Existen herramientas en línea que nos pueden ayduar con la selección de colores.
+    ````
+#### Anatomía de CSS, en la estructura enterior:
+- p: es la etiqueta o selector al que queremos aplicar estilos.
+    - Las llaves {}: agrupan las propiedades y valores CSS.
+- Estilos del sitio web Freelancer.
+- Tamaños de texto (px, em, rem)
+- Formas de escribir selectores
+    - Selector de elemento: en base a su etiqueta.
+        ```CSS
+            p{
+                color:blue;
+            }
+        ```
+    - Selector de clase: identificado por un punto en CSS.
+        ```CSS
+            .parrafo {
+                color:blue;
+            }
+        ```
+    - Selector de Id: identificados en css con un símbolo de #. Solo se puede usar una vez.
+        ```CSS
+            #parrafo{
+                color:blue;
+            }
+        ```
+    - Slector de atributo: basados en algún atributo.
+        ```CSS
+            [src="logo.jpg"]{
+                color:blue;
+            }
+        ```
+    
+    - Combinación descendente: agrupando clases.
+        ```CSS
+            .parrafo .texto{
+                color:blue;
+            }
+        ```     
+    - selectores hijos: slecciona a todos los elementos p dentro de la clase cliente.
+        ```CSS
+            .cliente > p{
+                color:blue;
+            }
+        ```
+        
+#### Especificidad en CSS:
+
+- hay selectores que son más específicos que otros.
+- el id es más específico que la clase.
+- El selector !important es el más específico de todos
+- los estilos en linea son más específicos que los de clase.
+- las clases son más espesíficas que los selectores de elementos.
+- y todos los anteriores son más espefícos que el selector universal *.
+- En resumen la jerarquía ed especificidad sería la siguiente:
+    <pre>
+        <code>
+        !important           = 1,0,0,0,0
+        Selector de id #     = 0,1,0,0,0
+        estilos en línea     = 0,0,1,0,0
+        Selector de clase    = 0,0,0,1,0
+        Selector de elemento = 0,0,0,0,1
+        Selector universal * = 0,0,0,0,0   
+        </code>          
+    </pre>
+- La especificidad le dice al navagador como mostrar el css que estamos utilizando de acuerdo a que tan específico es el selector utilizado.
+- No se reomienda el uso del selector !important a no ser que no quede otra alternativa.
+
+#### Colores en CSS:
+- Hay vartias formas de definir colores en css, por nombre, hexadecimal, hsl rgb, rgba...
+```CSS
+    p{
+        color:blue;
+        color:#000;
+        color:rgb(); /*red, green, blue*/
+        color:rgba(); /*red, green, blue, transparency*/
+        color:hsl(); /*hue, saturation, light*/
+    }
+```
+- Existen herramientas en línea que nos pueden ayduar con la selección de colores.
 
 - Añadir fuentes externas de estilos a nuestro proyecto.
     - fuentes (https://fontsource.org/)
@@ -171,7 +171,7 @@
             .text-center{};
             .color-red-100{};
         ```
-    - Móulos: es otr aforma de definir clases partiendo de una principoal y luego descendiendo a los elemtos que contiene.
+    - Móulos: es otra aforma de definir clases partiendo de una principoal y luego descendiendo a los elemtos que contiene.
 
     - Introducción a Responsive Web Design: es la manera en que la nuestra web se adapta a los distintos tamaños de pantalla en los dispositivos móbiles.
     - Esto se logra haciendo uso de las medias queries:
@@ -190,4 +190,28 @@
             - 1140 para laptops
             - 1400 para pantallas más grandes
 
-    - Imágenes con CSS:
+    - Imágenes con CSS: Utilizamos algunas de las propiedades de las imágenes dentro de css para la portada de nuestro primer proyecto
+
+#### Box Model:
+- En Css todo es una caja, y depende de 4 cosas (contenido, padding, borde y margen) como es que esta caja se muestre en el navegador.
+- podemos consultar el siguiente recurso
+[Box-Model](https://lenguajecss.com/css/modelo-de-cajas/que-es/ "Box-Model").
+- Es en este punto donde la propiedad box-sizing y su valor border-box nos ayudarán mucho con respecto al tamaño de nuestras cajas o elementos.
+- el conten de css por defecto no incluye margin, padding y border, esto es algo a tener en cuenta al momoento de trabajar los tamaños de nuestras cajas en css.
+- Position en CSS: 
+    - el posicionamiento es el lugar que ocupa un elemento: tenemos varios en css
+        - relative: es el que tiene pode defecto cada elemento.
+        - absolute: este toma como referencia a su elemento padre y se posiciona respecto a el.
+        - todo elemento posicionado adopta cuatro (top, right, bottom, left) propiedades o coordenadas la cuales servirán de referencia para posicionarse dentro del flujo HTML.
+- Bontones en CSS: nos permiten darle mayor interactividad a nuestro sitio, hay muchísimas posibilidades para darles estilos.
+
+### Comentar Código: 
+- nos permite documentar, explicar y mejorar nuestro código. La forma de comentar código es distinto en cada lenguaje.
+
+### Degradados en CSS:
+
+- 
+
+
+
+## SEGUNDO PROYECTO
