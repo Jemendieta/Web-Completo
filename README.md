@@ -210,6 +210,7 @@
 
 ### Degradados en CSS:
 
+- Para poder usar degradados en nuestro sitio debemos utilizar la propiedad background-image: linear-gradient().
 - 
 
 

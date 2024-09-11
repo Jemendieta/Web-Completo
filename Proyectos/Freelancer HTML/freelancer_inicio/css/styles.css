@@ -10,6 +10,7 @@ html{
 body{
   font-size: 16px; /*1 rem = 16px*/
   font-family: "Krub", sans-serif;
+  background-image: linear-gradient(to top, var(--grisclaro) 0%, var(--blanco)100%);
 }
 /* titulos */
 h1{
@@ -32,6 +33,7 @@ h1, h2, h3{
   --primario: #FFC107;
   --secundario:#0097A7;
   --gris:757575;
+  --grisclaro:#DFE9F3;
 
 }
 
