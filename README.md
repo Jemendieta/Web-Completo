@@ -208,11 +208,14 @@
 ### Comentar Código: 
 - nos permite documentar, explicar y mejorar nuestro código. La forma de comentar código es distinto en cada lenguaje.
 
-### Degradados en CSS:
+### Degradados y Sombras en CSS:
 
 - Para poder usar degradados en nuestro sitio debemos utilizar la propiedad background-image: linear-gradient().
-- 
+- Las sombras nos permiten agregar un tipo de efecto a los elementos de nuestro sitio para que se vean un poco mejor.
 
+### CSS GRID
+
+-
 
 
 ## SEGUNDO PROYECTO
