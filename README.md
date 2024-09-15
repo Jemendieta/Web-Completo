@@ -215,7 +215,12 @@
 
 ### CSS GRID
 
--
+- Nos permite definir la ubicación y el tamaños de los elementos dentro de nuestro sitio web.
+- A diferencia de flexbox donde el contenido crece automáticamente, con Grid, todo se agrupa dentro de un área definida, esto nos dá mayor flexibilidad y control sobre el diseño.
+- Con GRID tenemos acceso a dos dimensiones, podemos usarlo junto a flexbox.
+- ¿Cuándo usar FlexBox y cuando Grid?
+    - flexbox para cuando querramos distribuir elementos que se encuentran dentro de un contenedor.
+    - Grid para definir el layout de nuestro sitio como las columnas o los contenedores de los elementos.
 
 
 ## SEGUNDO PROYECTO
