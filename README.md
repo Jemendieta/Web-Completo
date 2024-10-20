@@ -60,7 +60,7 @@
     - Trabajamos con formularios HMTL
 
 #### La importancia de CSS
-- Colores, tamaos, espacios, animacioens y demás.
+- Colores, tamaños, espacios, animaciones y demás.
 - Es la forma en la que mejoramos el diseño de nuestros sitios web.
 - Estructura base
     ```CSS

@@ -1,16 +1,17 @@
 /* Estilos de primer sitio HTML - Freelancer Project */
 /* reseteamos el tamaño de texto */
 html {
-  font-size: 62.5%; /*hack para manejar los tamaños de texto*/
+  font-size: 62.5%; /*hack para manejar los tamaños de texto en combinación con los 16px del elemento body*/
   box-sizing: border-box;
 }
+
 *,
 *:before,
 *:after {
   box-sizing: inherit;
 }
 body {
-  font-size: 16px; /*1 rem = 16px*/
+  font-size: 16px; /*1 rem = 10px*/
   font-family: "Krub", sans-serif;
   background-image: linear-gradient(
     to top,
