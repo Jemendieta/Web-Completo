@@ -19,7 +19,7 @@ body {
     var(--blanco) 100%
   );
 }
-/* titulos */
+/* * titulos */
 h1 {
   font-size: 3.8rem;
 }
@@ -36,7 +36,7 @@ h3 {
 }
 
 
-/* Paleta de colores de nuestro proyecto */
+/* * Paleta de colores de nuestro proyecto */
 :root {
   /* colores */
   --blanco: #ffffff;
@@ -57,12 +57,12 @@ h3 {
   border-radius: 1rem;
 }
 
-/* estilos para nuestros elementos */
+/* * estilos para nuestros elementos */
 .titulo span {
   font-size: 2rem;
 }
 
-/* Navegación */
+/* * Navegación */
 .nav-background {
   background-color: var(--secundario);
 }
@@ -99,7 +99,7 @@ h3 {
   position: relative;
   margin-bottom: 2rem;
 }
-/* Trabjando con la imagen */
+/* * Trabajando con la imagen */
 
 .contenido-hero {
   position: absolute;
@@ -136,7 +136,7 @@ h3 {
   text-align: center;
 }
 
-/* Servicios */
+/* * Servicios */
 @media (min-width: 768px){
   .servicios{
     display: grid;
@@ -173,7 +173,7 @@ h3 {
 
 /* Contacto */
 
-/* Media Queries */
+/* * Media Queries */
 
 /* menu de navegación */
 @media (min-width: 768px) {
