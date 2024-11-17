@@ -176,13 +176,13 @@
     - Introducción a Responsive Web Design: es la manera en que la nuestra web se adapta a los distintos tamaños de pantalla en los dispositivos móbiles.
     - Esto se logra haciendo uso de las medias queries:
         - Medidas adaptables según el tipo de pantalla o dispositivo que el usuario final utilice.
-        - tienen la sigfuiente estrucura css
+        - tienen la siguiente estrucura css
             ```CSS
                 @media (min-width: 768px){  
                     <!-- Estilos css que se aplicarán a esa resolución -->
                 }
             ```
-        - min-width: indica que a partir de ese tamaño en adelante se aplicarán eciertos estilos.
+        - min-width: indica que a partir de ese tamaño en adelante se aplicarán ciertos estilos.
         - max-width: indica que de ese tamaño o menores a el se aplicaran ciertos estilos.
         - Tamaños estandar para Media Queries:
             - 480 para teléfonos
@@ -212,15 +212,18 @@
 
 - Para poder usar degradados en nuestro sitio debemos utilizar la propiedad background-image: linear-gradient().
 - Las sombras nos permiten agregar un tipo de efecto a los elementos de nuestro sitio para que se vean un poco mejor.
+- Una gran herramienta para generar sombras de forma sencilla es [cssmatic](https://cssmatic.com/ "sombras")
+
 
 ### CSS GRID
 
-- Nos permite definir la ubicación y el tamaños de los elementos dentro de nuestro sitio web.
+- Nos permite definir la ubicación y el tamaño de los elementos dentro de nuestro sitio web.
 - A diferencia de flexbox donde el contenido crece automáticamente, con Grid, todo se agrupa dentro de un área definida, esto nos dá mayor flexibilidad y control sobre el diseño.
-- Con GRID tenemos acceso a dos dimensiones, podemos usarlo junto a flexbox.
+- Con GRID tenemos acceso a dos dimensiones, también podemos usarlo junto a flexbox.
 - ¿Cuándo usar FlexBox y cuando Grid?
-    - flexbox para cuando querramos distribuir elementos que se encuentran dentro de un contenedor.
-    - Grid para definir el layout de nuestro sitio como las columnas o los contenedores de los elementos.
+    - ***Flexbox*** para cuando necesitemos distribuir elementos que se encuentran dentro de un contenedor.
+    - ***Grid*** para definir el layout de nuestro sitio como las columnas o los contenedores de los elementos.
 
+---
 
 ## SEGUNDO PROYECTO
