@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="icon" type="" href="" />
   </head>
-  
+
   <body>
     <!--* Cabecera -->
     <header>
@@ -38,7 +38,7 @@
         <a href="#">Contacto</a>
       </nav>
     </div>
-    
+
     <!--* Contenido principal -->
     <section class="hero">
       <div class="contenido-hero">
@@ -134,7 +134,7 @@
               <path d="M9 18l0 3" />
               <path d="M15 18l0 3" />
             </svg>
-            
+
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="icon icon-tabler icon-tabler-brand-apple"
@@ -194,45 +194,49 @@
         </section>
       </div>
       <!--* Cierre de sección de servicios -->
+
+      <!--* Formulario de contacto -->
+      <section>
+        <h2>Contacto</h2>
+
+        <form action="#" class="formulario">
+          <fieldset>
+            <legend>Contáctanos llenando todos los campos</legend>
+            <!--Contendor de campos formulario-->
+            <div class="contenedor-campos"> 
+              <div class="campo">
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Nombre"  class="input-text"/>
+              </div>
+
+              <div class="campo">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" placeholder="Teléfono"  class="input-text"/>
+              </div>
+
+              <div class="campo">
+                <label for="correo">Correo</label>
+                <input type="email" placeholder="Mail"  class="input-text"/>
+              </div>
+
+              <div class="campo">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="" id="" class="input-text" placeholder="Tu Mensaje"></textarea>
+              </div>
+            </div>
+
+            <!-- boton del formulario -->
+            <div class="alinear-boton flex">
+              <input class="boton w-sm-100" type="submit" value="Enviar"/>
+            </div>
+          </fieldset>
+        </form>
+      </section>
     </main>
 
-    <!--* Formulario de contacto -->
-    <section>
-      <h2>Contacto</h2>
-
-      <form action="#">
-        <fieldset>
-          <legend>Contáctanos llenando todos los campos</legend>
-          <div>
-            <label for="nombre">Nombre</label>
-            <input type="text" placeholder="Nombre" />
-          </div>
-
-          <div>
-            <label for="telefono">Teléfono</label>
-            <input type="tel" placeholder="Teléfono" />
-          </div>
-
-          <div>
-            <label for="correo">Correo</label>
-            <input type="email" placeholder="Mail" />
-          </div>
-
-          <div>
-            <label for="mensaje">Mensaje</label>
-            <textarea name="" id=""></textarea>
-          </div>
-
-          <div>
-            <input type="submit" value="Enviar" />
-          </div>
-        </fieldset>
-      </form>
-    </section>
-
     <!--* Footer -->
-    <footer>
-      <p>Todos los derechos reservados. Jorge Mendieta Freelancer</p>
+    <footer class="footer">
+      <p>Todos los derechos reservados. Jorge Mendieta, Freelancer</p>
     </footer>
   </body>
 </html>

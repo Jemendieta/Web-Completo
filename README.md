@@ -224,6 +224,13 @@
     - ***Flexbox*** para cuando necesitemos distribuir elementos que se encuentran dentro de un contenedor.
     - ***Grid*** para definir el layout de nuestro sitio como las columnas o los contenedores de los elementos.
 
+### Formularios
+- Primeros pasos.
+- CSS en los inputs.
+    - estilos como utiliades para casos específicos.
+- posicionando inputs.
+- 
+
 ---
 
 ## SEGUNDO PROYECTO
