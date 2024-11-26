@@ -3,6 +3,7 @@
 html {
   font-size: 62.5%; /*hack para manejar los tamaños de texto en combinación con los 16px del elemento body, 62.5% = 10 px por lo que 1rem = 10px*/
   box-sizing: border-box;
+  scroll-snap-type: y mandatory;
 }
 
 *,
@@ -165,6 +166,11 @@ h3 {
 }
 
 /* * Sección Servicios */
+/* scroll para navegación del sitio */
+.servicios, .navegacion-principal, .formulario{
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+}
 
 .servicio {
   display: flex;

@@ -229,8 +229,14 @@
 - CSS en los inputs.
     - estilos como utiliades para casos específicos.
 - posicionando inputs.
-- 
+
+---
+# Primer Proyecto - FreeLancer
+
+- Subiendo primero proyecto a netlify [Freelancer](https://freelancer-jorge-mendieta.netlify.app/ "Proyecto Freelancer")
 
 ---
 
 ## SEGUNDO PROYECTO
+- Aplicando los conociemienros adquiridos del primer proyecto.
+- 
