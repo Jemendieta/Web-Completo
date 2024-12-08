@@ -238,5 +238,6 @@
 ---
 
 ## SEGUNDO PROYECTO
-- Aplicando los conociemienros adquiridos del primer proyecto.
+- Aplicando los conociemientos adquiridos durante el desarrollo del primer proyecto.
+- Agregaremos Normalize y las fuentes de google fonts
 - 

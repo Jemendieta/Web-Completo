@@ -1,1 +1,13 @@
 /* Estilos del sitio FrontEndStore - Project */
+:root{
+  /* Colores */
+  --primario: #9C27B0;
+  --primarioOscuro:#89119D;
+  --secundario:#FFCE00;
+  --secundarioOscuro:rgb(233,287,2);
+  --blanco:#fff;
+  --negro:#000;
+  
+  /* Tipografías */
+  --fuentePrincipal:"Staatliches", sans-serif;
+}
