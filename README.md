@@ -265,4 +265,5 @@
   ```
 - En nuestro segundo proyecto usaremos BEM en nuestro CSS.
 - Haremos uso de CSS Grid para posicionar nuestros productos.
--
+
+## PATRONES DE DISEÑO
