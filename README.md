@@ -266,4 +266,9 @@
 - En nuestro segundo proyecto usaremos BEM en nuestro CSS.
 - Haremos uso de CSS Grid para posicionar nuestros productos.
 
+---
+
 ## PATRONES DE DISEÑO
+
+- Dos Columnas Iguales: se trabajará este diseño con flexbox y grid para ver sus características y ventajas.
+-
