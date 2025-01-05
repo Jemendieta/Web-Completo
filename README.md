@@ -284,3 +284,5 @@
 - **Mostly Fluid**: es el más sencillo de todos, el contenido fluye sobre el espacio disponible teniendo en cuenta los márgenes de izquierda y derecha.
 
 - **Mas información** [Patrones de Diseño](https://carlosazaustre.es/los-5-patrones-del-responsive-design)
+
+## TERCER PROYECTOP - BLOG CAFE
