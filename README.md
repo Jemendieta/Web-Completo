@@ -285,4 +285,4 @@
 
 - **Mas información** [Patrones de Diseño](https://carlosazaustre.es/los-5-patrones-del-responsive-design)
 
-## TERCER PROYECTOP - BLOG CAFE
+## TERCER PROYECTO - BLOG CAFE
