@@ -1,5 +1,10 @@
 # Archivos excluidos del repositorio
 # Arvhivos comprimidos
 /Lecturas
-.zip
-.pdf
+*.zip
+*.pdf
+/Proyectos/FrontEndSttore_inicio.zip
+/Proyectos/FrontEndStore_fin.zip
+/Proyectos/PatronesRWD_FINALIZADO.zip
+/Proyectos/blogdecafe_fin.zip
+/Proyectos/blogdecafe_inicio.zip

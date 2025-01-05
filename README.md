@@ -270,5 +270,17 @@
 
 ## PATRONES DE DISEÑO
 
-- Dos Columnas Iguales: se trabajará este diseño con flexbox y grid para ver sus características y ventajas.
--
+**Repasar estos conceptos y practicarlos**
+
+- Son los diferentes tipos de diseño que se pueden lograr para presentat nuestra web.
+  - Los ejemplos de esta sección se encuentran en la carpeta de proyectos.
+- **Dos Columnas Iguales**: se trabajará este diseño con flexbox y grid para ver sus características y ventajas (revisar carpeta de proyectos).
+- **Tres Columnas Iguales**: trabajaremos estas secciones con gird y flebox para ver sus ventajas y diferencias.
+- **Tres columnas (una más grande)**: de la misma manera que en los ejemplos anteriores lo haremos con grid y flexbox.
+- **Column Drop**: También conocido como colocación de columnas, define como se muestran las columnas en base el espacio disponible.
+- **Sidebar**: el cual es muy común en blogs y tiendas virtuales, se caracteríza por la barra lateral que acompaña el diseño, tal como indica su nombre.
+- **Layout Shifter**: es el mas avanzado de todos y uno de los más complejos, puede cambiar el orden y la ubicación de sus elementos.
+- **Tiny Tweaks**: pequeños ajustes, no suele cambiar de forma drástica como en patrones anteriores, son cambios que se realizan a algunos elementos de nuestro diseño según el tipo o tamaño de dispositivo.
+- **Mostly Fluid**: es el más sencillo de todos, el contenido fluye sobre el espacio disponible teniendo en cuenta los márgenes de izquierda y derecha.
+
+- **Mas información** [Patrones de Diseño](https://carlosazaustre.es/los-5-patrones-del-responsive-design)
