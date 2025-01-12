@@ -286,3 +286,7 @@
 - **Mas información** [Patrones de Diseño](https://carlosazaustre.es/los-5-patrones-del-responsive-design)
 
 ## TERCER PROYECTO - BLOG CAFE
+
+- Blog de Café:
+  - los elementos con **display:inline** son inmunes a la propiedad margin y a la propiedad width. Si queremos que acepten estas propiedades nuestros elementos deberían ser inline-block.
+  -
