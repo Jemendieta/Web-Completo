@@ -288,5 +288,6 @@
 ## TERCER PROYECTO - BLOG CAFE
 
 - Blog de Café:
+  - Sitio estilo blog de cafetería .
   - los elementos con **display:inline** son inmunes a la propiedad margin y a la propiedad width. Si queremos que acepten estas propiedades nuestros elementos deberían ser inline-block.
   -
