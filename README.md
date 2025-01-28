@@ -290,4 +290,21 @@
 - Blog de Café:
   - Sitio estilo blog de cafetería .
   - los elementos con **display:inline** son inmunes a la propiedad margin y a la propiedad width. Si queremos que acepten estas propiedades nuestros elementos deberían ser inline-block.
-  -
+  - Mejorando la performance:
+    - lazy loading : llamando elementos cuando se necesiten.
+    - preload: Cargando elementos tan pronto como se necesiten.
+    - Prefetch: Cargar la siguiente página que esperamos que el usuario visite.
+    - Uso de imágenes webp haciendo uso de la etiqueta picture, con el siguiente código le decimos a nuestro html que si no se soportar la imagen .webp cargue la .jpg.
+    ```CSS
+      <picture>
+        <source srcset="img/blog3.webp" type="image/webp" />
+        <img loading="lazy" src="img/blog3.jpg" alt="Imagen Blog" />
+      </picture>
+    ```
+    - Modernizr y webp: Modernizr es una librería de javaScript que detecta las características de un navegador y si son soportadas podemos ejecutar nuestro código y si no se ejecuta otro código. Modernizr se instala vía NPM.
+    - Etiquetas Meta: permiten agregar metadatos importantes para el navegador, no se ven directamente pero permiten agregar funcionalidad a nuestros sitios dentro de los motores de búsqueda. Existen muchas etiquetas meta.
+    - Deployment y Auditoría Lighthouse: Lighthouse es una extensión que nos permite realizar una serie de pruebas para conocer si nuestro sitio sigue buenas prácticas, velocidad de carga, etc.
+
+---
+
+## Iniciamos con JavaScript
