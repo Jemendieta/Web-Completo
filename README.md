@@ -246,7 +246,7 @@
 
 ---
 
-# Primer Proyecto - FreeLancer
+## Primer Proyecto - FreeLancer
 
 - Subiendo primero proyecto a netlify [Freelancer](https://freelancer-jorge-mendieta.netlify.app/ "Proyecto Freelancer")
 
@@ -308,3 +308,41 @@
 ---
 
 ## Iniciamos con JavaScript
+
+- Es el lenguaje de la Web, añade interactividad a nustros sitios web, además trabaja también del lado del backed.
+- Reacciona a los eventos del usuario en nuestras webs.
+- DOM: la forma en la que los elementos de nuestros sitios están conectados entre si y en como interacuamos con cada uno de ellos. También podemos acceder a los atributos y propiedades de las etiquetas HTML.
+- Es un lenguaje de tipo dinámico, eso quiere decir que guarda el tipo de dato en su valor.
+
+### Variables en JavaScript
+
+- son una característica de cualquier lenguaje de programación.
+- Tenemos tres formas de crear variables:
+
+  ```JS
+  // var: este tipo de declaración ya no recomienda.
+    var producto ="celular";
+  // let: Esta es la forma recomendada de declarar variables.
+    let nombre = "Jorge";
+  //const: no cambiará su valor, por eso se usa const, es decir, valor constante.
+    const dni = 12345678;
+  ```
+
+  ```JS
+    // Formas de declarar variables
+    let variable_;
+    let variable_dos;
+    let $variableTres;
+    let variableCuatro; // Camel case, es el más utilizadoo
+    let VariableCinco; // pascal case
+    let variableseis; // uso ed minúsculas
+  ```
+
+- No se puede declarar una variable que inicien por números, guiones medios.
+- ## Variables **let** y **const**:
+  - Las variables con let pueden iniciar con un valor asignado o asignárselo luego.
+  - Las variables declaradas con let siguen las mismas conveciones que las declaradas con var.
+  - Las variables declaradas con const no pueden ser inicializadas sin valor.
+  - Las diferencias entre let y const:
+    - const no puede iniciañizar una variable sin valor, let si.
+    - const no permite reasignar el valor de la variable, con let si podemos reasignar.
