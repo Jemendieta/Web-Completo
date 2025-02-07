@@ -346,3 +346,48 @@
   - Las diferencias entre let y const:
     - const no puede iniciañizar una variable sin valor, let si.
     - const no permite reasignar el valor de la variable, con let si podemos reasignar.
+- ## Strings o Cadenas de Texto y Métodos:
+
+  - .lenht: permite saber la longitud de una cadea de texto.
+  - .indexOf('texto'): permite saber la posicion de una palabra dentro de una cadena de texto.
+    si nos devuelve un valor negativo significa que no la pudo encontrar.
+  - .includes('texto'): permite saber si una cadena incluye (true) o no (false) una palabra. Tiene en cuenta mayúsculas y minúsculas.
+
+- ## Números y Operadores.
+
+  - El Objeto math: Math es un objeto y pertenece a la ventana global, contiene muchas fuciones de las que podemos hacer uso.
+  - **.round()**: Permite redondear un número
+  - **.ceil()**: Redondea siempre hacia arriba, al entero superior más cercano.
+  - **.floor()**: Redondea siempre hacia abajo, al entero inferior más cercano.
+  - **sqrt()**: Calcula la raís cuadrada de un número.
+  - **abs()**: convierte un número negativo a positivo.
+  - **min()**: mínimo número de un conjunto de números.
+  - **max()**: máximo número de un conjunto de números.
+  - **random()**: genera un número aleatorio menor que 1. Combinado con otras funciones podemos retornar números aleatorios en rangos específicos.
+  - Aquí tenemos algunos ejemplos de lo anterior:
+
+  ```JS
+    let resultado;
+    resultado = Math.PI;
+    resultado = Math.round(3.141516);
+    resultado = Math.ceil(3.15);
+    resultado = Math.floor(3.6);
+
+    resultado = Math.sqrt(4);
+    resultado = Math.abs(-4);
+    resultado = Math.min(4,3,5,6,3,2,-1);
+    resultado = Math.max(4,3,5,6,3,2,-1);
+    resultado = Math.random();
+    console.log(Math.random() * 10); //eleatorio entre 0 y 10.
+
+    console.log(resultado)
+  ```
+
+- ## Controlar el orden de las operaciones.
+
+  - es la manera en la que se ejecutan las operaciones matemáticas, priorizando paréntesis, exponentes, multiplicaciiones, divisiones, sumas y restas.
+  - incrementos: podemos incrementar el valor de una variable en 1 agregando el operador ++ antes de la variable.
+  - Decrementos: lo mismo que lo anterior solo que haciendo uso del operador --.
+  - Si queremos que aumente o decremente en un número específico haríamos uso de += ó -=.
+
+- ## Concatención y Template Strings:
