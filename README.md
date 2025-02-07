@@ -390,4 +390,28 @@
   - Decrementos: lo mismo que lo anterior solo que haciendo uso del operador --.
   - Si queremos que aumente o decremente en un número específico haríamos uso de += ó -=.
 
-- ## Concatención y Template Strings:
+- ## Concatenación y Template Strings:
+
+  - la concatenación es la inión de dos o más strings, esta se puede llevar a cabo de dos formas, la primera es usando el operador (+) y la segunda y más recomendada con template strings haciendo uso de tildes voletadas.
+
+  - haciendo uso del operador +: este nos permite unir varias cadenas de trxto, no es la más recomendadda.
+
+    ```Js
+      let nombre = "Usuario";
+      let saludo = "Hola, " + nombre + " Bienvenido";
+      console.log(saludo);
+      <!-- esto devolverá: Hola, Usuario Bienvenido -->
+    ```
+
+  - Template Strings: es la forma recomendada y se hace uso de backticks `` o comillas simples volteadas y las varaibles se colocan dentro de llaves y anteponiendo el signo de dolar.
+
+    ```JS
+      let usuario = "Usuario1";
+      let email = "usuario1@correo.com"
+
+      let mensaje = `Hola ${usuario}, tu correo es ${email}`;
+      console.log(mensaje);
+    ```
+
+- ## Booleans
+  - Son tipos de datos que devuelven true o false como resultado, son usados principalmente en comparaciones o en estructuras condicionales.
