@@ -414,4 +414,52 @@
     ```
 
 - ## Booleans
+
   - Son tipos de datos que devuelven true o false como resultado, son usados principalmente en comparaciones o en estructuras condicionales.
+
+- ## Objetos
+
+  - Nos permiten agrupar un conjunto de propiedades y valores dentro de una misma variable. Es como tener varias variables dentro de una sola.
+
+  ```Js
+    const usuario = {
+      nombre: "jorge",
+      edad: 38,
+      trabajando: false
+    };
+    console.log(usuario);
+  ```
+
+  - La forma de acceder a las claves y valores de nuestro objeto es usando sintaxis de punto (mas usada) o usando corchetes(no es tan usada):
+
+    ```JS
+      <!-- sintaxis de punto -->
+      console.log(usuario.nombre);
+
+      <!-- usando corchetes -->
+      console.log(usuario["edad"]);
+    ```
+
+  - Modificar propiedades de un objeto: podemos agregar o quitar información de ellos.
+  - Tomando al ejemplo anterior haríamos lo siguiente para agregar una propiedad.
+    ```JS
+      usuario.foto="foto.jpg";
+    ```
+  - Si lo que queremos es quitar una propiedad haríamos lo siguiente:
+    ```Js
+      delete usuario.trabajando;
+    ```
+  - **Destructuring de Objetos**: podemos crear variables a partir de las propiedades de un objeto.
+
+  ```JS
+  <!-- Creamos una variable y le asignamos una propiedad del objeto -->}
+
+    const usuario_uno = usuario.nombre;
+    console.log(usuario_uno);
+  ```
+
+  - además usando Destructuring(sacar de una estrcutura) podemos sacar una propiedad y asignarla a una variable. Destructuring extrae el valor y crea la variable en un solo paso
+    ```JS
+      const {nombre, edad} = usuario;
+      console.log(nombre, edad);
+    ```
