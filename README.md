@@ -463,3 +463,36 @@
       const {nombre, edad} = usuario;
       console.log(nombre, edad);
     ```
+  - **Object Methods**: son funciones que nos permiten manipular objetos de diferentes maneras.
+  - por ejemplo: **freeze()**: el cual congela el objejo impidiendo sea modificado.
+
+  - **.seal()**: no permite agregar nuevas propiedades pero si permite modificar las exixtentes.
+
+  - **"use strict"**: permite correr JS en modo estricto, es decir que si existe algún error detendrá la ejecución del programa.
+
+  ```JS
+    Object.freeze(usuario);
+    console.log(Object.isFrozen(usuario)); //devuelve true o false
+  ```
+
+  - **Unir Objetos Spread Operator**: es una forma de unir dos o más objetos dentro de uno solo. Para eso hacemos uso del Spread Operator(...) de la siguiente manera (...objetoUno, ...objetoDos)
+
+    ```JS
+    const usuario = {
+      nombre: "jorge",
+      edad: 38,
+      empleo: false
+    };
+
+    const area ={
+      ubicacion: "sala",
+      tamaño: "10 metros"
+    };
+
+    // uniendo dos objetos
+    const nuevoUsuario ={...usuario, ...area};
+    console.log(nuevoUsuario);
+    ```
+
+- ## Arreglos(arrays)
+  -
