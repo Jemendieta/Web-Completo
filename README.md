@@ -12,6 +12,7 @@
 - Sitio web para inmobiliaria.
 - Sitio web para salón de belleza.
 - Sitio web para administrar tareas.
+
 - Proyectos con HTML, CSS Fetch y SASS
 - Proyecto con HTML, CSS y JS.
 - Tecnologías y versiones del curso.
@@ -494,5 +495,120 @@
     console.log(nuevoUsuario);
     ```
 
+  - 🚀 Resumen rápido de Object Methods en JavaScript
+
+  | Método                             | Descripción                                                                                |
+  | ---------------------------------- | ------------------------------------------------------------------------------------------ |
+  | `Object.keys(obj)`                 | Devuelve un array con las claves del objeto                                                |
+  | `Object.values(obj)`               | Devuelve un array con los valores del objeto                                               |
+  | `Object.entries(obj)`              | Devuelve un array de pares clave-valor                                                     |
+  | `Object.assign(dest, src)`         | Copia propiedades de un objeto a otro                                                      |
+  | `Object.freeze(obj)`               | Bloquea modificaciones en el objeto (no se puede cambiar, agregar ni eliminar propiedades) |
+  | `Object.seal(obj)`                 | Permite modificar valores, pero no agregar ni eliminar propiedades                         |
+  | `Object.hasOwnProperty(propiedad)` | Verifica si una propiedad existe en el objeto (devuelve `true` o `false`)                  |
+
 - ## Arreglos(arrays)
-  -
+
+  - son una estructura de datos que permiten para agrupar elementos del mismo tipo o relacionados entre si dentro de una sola variable y están ordenados por índices iniciando en cero.
+
+  ```JS
+    // Forma estandar de crear arreglos
+    const numeros = [1,2,3,4,5,6,7,8];
+    console.table(numeros);
+
+    // Segunda forma de crear arreglos
+    const letras = neww Array ("a","b","c","d");
+    console.log(letras);
+  ```
+
+  - Para acceder a los valores de un arreglo haremos lo siguiente:
+
+    ```JS
+      console.log(numeros[4]);
+
+      // Conocer la extensión de un arreglo
+      console.log(numeros.length);
+
+      // Iterar los elementos de una arreglo
+      letras.forEach(function(letra){
+        console.log(letra);
+      })
+    ```
+
+  - **Métodos para Arrays**
+
+    - Nos permiten manipular a los arrays y su contenido de una forma más eficiente. Estos son algunos de los más conocidos:
+
+      # 📌 Métodos básicos de los Arrays en JavaScript
+
+    | Método       | Descripción                                                                           | Ejemplo                             |
+    | ------------ | ------------------------------------------------------------------------------------- | ----------------------------------- |
+    | `push()`     | Agrega un elemento al final del array                                                 | `frutas.push("Uva");`               |
+    | `pop()`      | Elimina el último elemento del array                                                  | `frutas.pop();`                     |
+    | `unshift()`  | Agrega un elemento al inicio del array                                                | `frutas.unshift("Fresa");`          |
+    | `shift()`    | Elimina el primer elemento del array                                                  | `frutas.shift();`                   |
+    | `length`     | Obtiene la cantidad de elementos del array                                            | `frutas.length;`                    |
+    | `splice()`   | Recibe dos parámetros(indice de valor a eliminar, cantidad de elementos a eliminar)   | `frutas.splice();`                  |
+    | `includes()` | Permite saber si un valor existe o no en un arreglo plano, devuelve true o false      | `frutas.includes("valor buscado");` |
+    | `some()`     | Permite saber si un valor existe o no en un arreglo de objetos, devuelve true o false | `frutas.some();`                    |
+    | `reduce()`   | Permite reducir un arreglo a un único valor                                           | `frutas.reduce();`                  |
+    | `filter()`   | Permite filtrar los elementos de un arreglo y devuelve un nuevo arreglo               | `frutas.filter();`                  |
+
+  - **rest operator o spread operator**: al igual que en los objetos, nos permite agregar mas elementos a un arreglo o unirlo con otro.
+
+  ```JS
+    const letras = new Array('a','b','c','d');
+
+    const nuevaLetra = [...letras, "e"];
+    // concatena el arreglo original y le agrega un nuevo elemento al inicio o final.
+    console.table(nuevaLetra);
+  ```
+
+  - esta sería la forma de buscar valores en arreglos haciendo uso de otros métodos:
+
+    ```JS
+      // método includes() para arreglos planos
+      const letras = new Array("a", "b", "c", "d", "e");
+
+      const letra = letras.includes("a");
+      console.log(letra);
+
+
+      // some() para arreglos de objetos
+      const productos = [
+        { nombre: "Laptop", precio: 1200 },
+        { nombre: "Mouse", precio: 25 },
+        { nombre: "Teclado", precio: 45 },
+        { nombre: "Monitor", precio: 300 },
+        { nombre: "Auriculares", precio: 60 },
+        { nombre: "Impresora", precio: 150 },
+      ];
+      let producto = productos.some(function (equipo) {
+        return equipo.nombre === "Laptop";
+      });
+
+      console.log(producto); // devuelve true
+
+      // Usando arrows functions
+      let verProducto = productos.some((equipo) => equipo.nombre === "Laptop");
+
+      console.log(verProducto); //devuelve true
+
+      // Usando método reduce():
+
+      let sumarPrecio = productos.reduce(function (total, producto) {
+        return total + producto.precio;
+      }, 0);
+
+      console.log(sumarPrecio); // nos devuelve la suma total de precios
+
+      // Usando método filter() nos permite filtrar uno o varios elementos de un arreglo
+      let filtrado = productos.filter(function (producto) {
+        return producto.precio > 100;
+      });
+      console.log(filtrado); // devuelve los productos cuyo precio es mayor a 100
+    ```
+
+## Funciones (functions)
+
+-
