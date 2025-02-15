@@ -611,4 +611,44 @@
 
 ## Funciones (functions)
 
--
+- Una función es un bloque de código reutilizable que realiza una tarea específica. Se puede ejecutar (o "llamar") cuantas veces sea necesario sin repetir código. Tenemos tres formas de crear funciones:
+
+  ```JS
+    //1 declaración de la función (inicia con la palabra function)
+    function sumar() {
+      console.log(10 * 10);
+    }
+    // ahora llamamos a la función.
+    sumar();
+
+    //2 Expresión de la función (la función va dentro de una variable)
+    const sumarDos = function () {
+      console.log(3 + 3);
+    };
+    sumarDos();
+
+    //3 IIFE (funciones que se llaman a si mismas)
+    (function () {
+      console.log("Esto es una función");
+    })(); //este paréntesis hace que la función se ejecute sola
+    // Este último tipo de funciones ayuda a que las funciones y variables no se mezclen con otros archivos.
+  ```
+
+  - Se recomienda hacer uso de las funciones por expresión para evitar el hoisting.
+  - Diferencias entre funciones (hoisting): JavaScript mueve las funciones declaradas al inicio del código antes de ejecutarlo.
+
+  ### 📌 Diferencias entre funciones
+
+  | Tipo                     | ¿Tiene hoisting? | ¿Se puede llamar antes de definirla? | Forma de declararla            |
+  | ------------------------ | ---------------- | ------------------------------------ | ------------------------------ |
+  | **Function Declaration** | ✅ Sí            | ✅ Sí                                | `function nombre() {}`         |
+  | **Function Expression**  | ❌ No            | ❌ No                                | `const nombre = function() {}` |
+
+  ***
+
+  ### 📌 Conclusión
+
+  - Usa **Function Declaration** cuando necesitas que la función esté disponible en todo el código.
+  - Usa **Function Expression** cuando necesitas definir funciones dentro de variables o evitar el hoisting.
+
+  - **Diferencias entre métodos y funciones**:
