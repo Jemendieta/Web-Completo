@@ -651,4 +651,19 @@
   - Usa **Function Declaration** cuando necesitas que la función esté disponible en todo el código.
   - Usa **Function Expression** cuando necesitas definir funciones dentro de variables o evitar el hoisting.
 
-  - **Diferencias entre métodos y funciones**:
+  - **Diferencias entre métodos y funciones**: son muy similares, la diferencia radica en el contexto en el que se usa uno u otro.
+
+  ```JS
+    // Diferencia entre métodos y funciones
+    const numeroUno = 20;
+    const numeroDos = "20";
+    // Las funciones se reconocen porque primero va el nombre de la función seguido de los paréntesis
+    // parseInt() convierte un srting a número
+    console.log(parseInt(numeroDos));
+
+    // los métodos ususlamente tienen el nombre de la variable u objeto, podemos identificarlo por la sintaxis de punto.
+    //.toString() convierte un entero a string
+    console.log(numeroUno.toString());
+  ```
+
+  - **Funciones con parámetros**:
