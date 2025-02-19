@@ -1,11 +1,18 @@
 // Funciones con parámetros
-function sumar() {
-  console.log(10 + 10);
+
+function sumar(numero1, numero2) {
+  //par+ametros
+  console.log(numero1 + numero2);
 }
 
-sumar();
+sumar(3, 6); //Argumentos
+sumar(3, 5); //Argumentos
+sumar(3, 4); //Argumentos
+sumar(3, 3); //Argumentos
 
-const sumarDos = function () {
-  console.log(3 + 3);
+// Funciones con parámetros por default
+
+const saludo = function (nombre = "Jorge Mendieta") {
+  console.log("Hola " + nombre);
 };
-sumarDos();
+saludo();

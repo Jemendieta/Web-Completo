@@ -666,4 +666,29 @@
     console.log(numeroUno.toString());
   ```
 
-  - **Funciones con parámetros**:
+  - **Funciones con parámetros**: para hacer nuestras funciones un poco más robustas, podemos pasarles parámetros() y argumentos:
+
+    ```JS
+      function sumar(numero1, numero2) {//parámetros
+         console.log(numero1 + numero2);
+      }
+      sumar(3, 6);//Argumentos
+      // esto nos devuelve 9
+
+      //Funciones con valores por defecto
+        const saludo = function (nombre = "Jorge Mendieta") {
+          console.log("Hola " + nombre);
+        };
+        saludo(); //devuelve: Hola Jorge Mendieta.
+
+    ```
+
+    - **Funciones que devuelven valor**: haciendo uso de return y asignando la función a una variable para utilizarla luego.
+
+    ```JS
+    function sumar(n1, n2) {
+      return n1 + n2;
+    }
+    const resultado = sumar(2, 3);
+    console.log(resultado);
+    ```
