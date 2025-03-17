@@ -635,7 +635,10 @@
   ```
 
   - Se recomienda hacer uso de las funciones por expresión para evitar el hoisting.
-  - Diferencias entre funciones (hoisting): JavaScript mueve las funciones declaradas al inicio del código antes de ejecutarlo.
+  - JavaScript se ejecuta en dos etapas:
+    - Registro co creación: se registran las funciones.
+    - Ejecución: ejetuca el código.
+  - La mayor diferencias entre funciones además de la sintaxis es el hoisting. JavaScript mueve las funciones declaradas al inicio del código antes de ejecutarlo.
 
   ### 📌 Diferencias entre funciones
 
@@ -683,7 +686,7 @@
 
     ```
 
-    - **Funciones que devuelven valor**: haciendo uso de return y asignando la función a una variable para utilizarla luego.
+  - **Funciones que retornan valores**: haciendo uso de return y asignando la función a una variable para utilizarla luego.
 
     ```JS
     function sumar(n1, n2) {
@@ -692,3 +695,7 @@
     const resultado = sumar(2, 3);
     console.log(resultado);
     ```
+
+  - **Métodos de Propiedad**: son métodos que podemos crear nosotros mismos con la estrctura de una función pero con la sintaxis de un método. \*_Repasar más sobre este tema_
+
+  - **Arrow functions**:
