@@ -310,14 +310,14 @@
 
 ## Iniciamos con JavaScript
 
-- Es el lenguaje de la Web, añade interactividad a nustros sitios web, además trabaja también del lado del backed.
+- Es el lenguaje de la Web, añade interactividad a nuestros sitios, además, trabaja también del lado del backend.
 - Reacciona a los eventos del usuario en nuestras webs.
-- DOM: la forma en la que los elementos de nuestros sitios están conectados entre si y en como interacuamos con cada uno de ellos. También podemos acceder a los atributos y propiedades de las etiquetas HTML.
-- Es un lenguaje de tipo dinámico, eso quiere decir que guarda el tipo de dato en su valor.
+- DOM: la forma en que los elementos de nuestros sitios están conectados entre si y en como interacuamos con cada uno de ellos. También podemos acceder a los atributos y propiedades de las etiquetas HTML.
+- Es un lenguaje de tipo dinámico, eso quiere decir que, guarda el tipo de dato en su valor.
 
 ### Variables en JavaScript
 
-- son una característica de cualquier lenguaje de programación.
+- Son una característica de cualquier lenguaje de programación.
 - Tenemos tres formas de crear variables:
 
   ```JS
@@ -336,20 +336,22 @@
     let $variableTres;
     let variableCuatro; // Camel case, es el más utilizadoo
     let VariableCinco; // pascal case
-    let variableseis; // uso ed minúsculas
+    let variableseis; // uso de minúsculas
   ```
 
 - No se puede declarar una variable que inicien por números, guiones medios.
 - ## Variables **let** y **const**:
+
   - Las variables con let pueden iniciar con un valor asignado o asignárselo luego.
   - Las variables declaradas con let siguen las mismas conveciones que las declaradas con var.
   - Las variables declaradas con const no pueden ser inicializadas sin valor.
   - Las diferencias entre let y const:
-    - const no puede iniciañizar una variable sin valor, let si.
+    - const no puede inicializar una variable sin valor, let si.
     - const no permite reasignar el valor de la variable, con let si podemos reasignar.
+
 - ## Strings o Cadenas de Texto y Métodos:
 
-  - .lenht: permite saber la longitud de una cadea de texto.
+  - .lenght: permite saber la longitud de una cadea de texto.
   - .indexOf('texto'): permite saber la posicion de una palabra dentro de una cadena de texto.
     si nos devuelve un valor negativo significa que no la pudo encontrar.
   - .includes('texto'): permite saber si una cadena incluye (true) o no (false) una palabra. Tiene en cuenta mayúsculas y minúsculas.
@@ -696,6 +698,6 @@
     console.log(resultado);
     ```
 
-  - **Métodos de Propiedad**: son métodos que podemos crear nosotros mismos con la estrctura de una función pero con la sintaxis de un método. \*_Repasar más sobre este tema_
+  - **Métodos de Propiedad**: son métodos que podemos crear nosotros mismos con la estructura de una función pero con la sintaxis de un método. \*_Repasar más sobre este tema_
 
   - **Arrow functions**:
